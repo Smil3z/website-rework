@@ -3,14 +3,15 @@ import "./Navbar.css";
 import logo from "../../assets/smileslogo.png";
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="container">
       <img src={logo} className="logo" alt="" />
-      <ul>
+      <ul className="navlist">
         <li>Home</li>
         <li>About me</li>
         <li>Projects</li>
-        <li>Contact me</li>
-        <li>Example</li>
+        <li>
+          <button className="bttn">Contact me</button>
+        </li>
       </ul>
     </nav>
   );
