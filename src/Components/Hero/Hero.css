@@ -1,5 +1,39 @@
 .hero {
+    position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(../../assets/particlewave.mp4)
-}
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2; /* push video behind everything */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
+    z-index: -1; /* gradient above video but behind content */
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1; /* keeps text on top */
+    text-align: center;
+  }
+  .hero-content {
+    font-size: 3rem;
+  }
