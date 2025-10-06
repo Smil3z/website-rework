@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="about-right">
         <h3>ABOUT ME</h3>
-        <p>
+        <p className="about-paragraph">
           "Hello everyone and welcome to my portfolio, my name is Stephon and I
           am a motivated Full Stack Engineer proficient in HTML, CSS, and
           JavaScript programming languages. My background is in Web Development

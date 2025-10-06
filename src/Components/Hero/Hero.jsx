@@ -8,7 +8,7 @@ const Hero = () => {
       <video className="background-video" src={video} autoPlay loop muted />
       <div className="overlay"></div>
       <div className="hero-content">
-        <h1>Welcome to My Site</h1>
+        <h1>Welcome To My Site</h1>
         <p>Subtitle or description here</p>
       </div>
     </div>

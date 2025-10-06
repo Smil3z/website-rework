@@ -5,3 +5,22 @@
     justify-content: space-between;
     width: 90%;
 }
+
+.about-left {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.about-right {
+    flex-basis: 56%;
+}
+
+.selfie-pic {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.about-paragraph {
+    font-size: 30px;
+    color: white;
+}

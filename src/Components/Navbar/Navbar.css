@@ -25,3 +25,13 @@ nav ul li {
     margin: 5px 20px;
     font-size: 16px;
 }
+
+.dark-nav {
+    background: black;
+    transition: 0.5s;
+}
+
+.bttn {
+    background-color: #000; 
+    color: #00ffff; 
+}
